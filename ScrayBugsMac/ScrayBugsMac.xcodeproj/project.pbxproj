@@ -23,6 +23,12 @@
 		D82F2E9D1DC4F54B007A1459 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E951DC4F54B007A1459 /* potatoBugThumb.jpg */; };
 		D82F2E9E1DC4F54B007A1459 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E961DC4F54B007A1459 /* wolfSpider.jpg */; };
 		D82F2E9F1DC4F54B007A1459 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */; };
+		D82F2EA31DC5AA69007A1459 /* EDStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2EA21DC5AA69007A1459 /* EDStarRating.m */; };
+		D82F2EA81DC5AAB6007A1459 /* NSImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2EA71DC5AAB6007A1459 /* NSImage+Extras.m */; };
+		D82F2EAC1DC5AAC0007A1459 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D82F2EA91DC5AAC0007A1459 /* shockedface2_empty.png */; };
+		D82F2EAD1DC5AAC0007A1459 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = D82F2EAA1DC5AAC0007A1459 /* shockedface2_full.png */; };
+		D82F2EAE1DC5AAC0007A1459 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = D82F2EAB1DC5AAC0007A1459 /* shockedface2_half.png */; };
+		D82F2EB11DC60C13007A1459 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82F2EB01DC60C13007A1459 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,14 @@
 		D82F2E951DC4F54B007A1459 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		D82F2E961DC4F54B007A1459 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		D82F2EA11DC5AA69007A1459 /* EDStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDStarRating.h; sourceTree = "<group>"; };
+		D82F2EA21DC5AA69007A1459 /* EDStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDStarRating.m; sourceTree = "<group>"; };
+		D82F2EA61DC5AAB6007A1459 /* NSImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Extras.h"; sourceTree = "<group>"; };
+		D82F2EA71DC5AAB6007A1459 /* NSImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Extras.m"; sourceTree = "<group>"; };
+		D82F2EA91DC5AAC0007A1459 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		D82F2EAA1DC5AAC0007A1459 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		D82F2EAB1DC5AAC0007A1459 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+		D82F2EB01DC60C13007A1459 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82F2EB11DC60C13007A1459 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			children = (
 				D82F2E6C1DC4B255007A1459 /* ScrayBugsMac */,
 				D82F2E6B1DC4B255007A1459 /* Products */,
+				D82F2EAF1DC60C12007A1459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +96,9 @@
 		D82F2E6C1DC4B255007A1459 /* ScrayBugsMac */ = {
 			isa = PBXGroup;
 			children = (
+				D82F2EA51DC5AA9C007A1459 /* Art */,
+				D82F2EA41DC5AA70007A1459 /* Helpers */,
+				D82F2EA01DC5AA4F007A1459 /* Views */,
 				D82F2E851DC4E15E007A1459 /* Model */,
 				D82F2E831DC4DF1F007A1459 /* GUI */,
 				D82F2E731DC4B255007A1459 /* Assets.xcassets */,
@@ -135,6 +154,42 @@
 				D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */,
 			);
 			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+		D82F2EA01DC5AA4F007A1459 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2EA11DC5AA69007A1459 /* EDStarRating.h */,
+				D82F2EA21DC5AA69007A1459 /* EDStarRating.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D82F2EA41DC5AA70007A1459 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2EA61DC5AAB6007A1459 /* NSImage+Extras.h */,
+				D82F2EA71DC5AAB6007A1459 /* NSImage+Extras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D82F2EA51DC5AA9C007A1459 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2EA91DC5AAC0007A1459 /* shockedface2_empty.png */,
+				D82F2EAA1DC5AAC0007A1459 /* shockedface2_full.png */,
+				D82F2EAB1DC5AAC0007A1459 /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		D82F2EAF1DC60C12007A1459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2EB01DC60C13007A1459 /* Quartz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,15 +251,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82F2E741DC4B255007A1459 /* Assets.xcassets in Resources */,
+				D82F2EAC1DC5AAC0007A1459 /* shockedface2_empty.png in Resources */,
 				D82F2E9C1DC4F54B007A1459 /* potatoBug.jpg in Resources */,
 				D82F2E9E1DC4F54B007A1459 /* wolfSpider.jpg in Resources */,
 				D82F2E9F1DC4F54B007A1459 /* wolfSpiderThumb.jpg in Resources */,
 				D82F2E9B1DC4F54B007A1459 /* ladybugThumb.jpg in Resources */,
 				D82F2E981DC4F54B007A1459 /* centipede.jpg in Resources */,
 				D82F2E991DC4F54B007A1459 /* centipedeThumb.jpg in Resources */,
+				D82F2EAD1DC5AAC0007A1459 /* shockedface2_full.png in Resources */,
 				D82F2E771DC4B255007A1459 /* MainMenu.xib in Resources */,
 				D82F2E9D1DC4F54B007A1459 /* potatoBugThumb.jpg in Resources */,
 				D82F2E9A1DC4F54B007A1459 /* ladybug.jpg in Resources */,
+				D82F2EAE1DC5AAC0007A1459 /* shockedface2_half.png in Resources */,
 				D82F2E821DC4BFCB007A1459 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +277,9 @@
 				D82F2E721DC4B255007A1459 /* main.m in Sources */,
 				D82F2E8E1DC4E8C3007A1459 /* ScaryBugsDoc.m in Sources */,
 				D82F2E811DC4BFCB007A1459 /* MasterViewController.m in Sources */,
+				D82F2EA31DC5AA69007A1459 /* EDStarRating.m in Sources */,
 				D82F2E6F1DC4B255007A1459 /* AppDelegate.m in Sources */,
+				D82F2EA81DC5AAB6007A1459 /* NSImage+Extras.m in Sources */,
 				D82F2E8B1DC4E449007A1459 /* ScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +428,7 @@
 				D82F2E7D1DC4B255007A1459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
