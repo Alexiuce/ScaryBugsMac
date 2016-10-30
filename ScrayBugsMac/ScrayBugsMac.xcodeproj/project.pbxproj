@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82F2E6F1DC4B255007A1459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2E6E1DC4B255007A1459 /* AppDelegate.m */; };
+		D82F2E721DC4B255007A1459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2E711DC4B255007A1459 /* main.m */; };
+		D82F2E741DC4B255007A1459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E731DC4B255007A1459 /* Assets.xcassets */; };
+		D82F2E771DC4B255007A1459 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E751DC4B255007A1459 /* MainMenu.xib */; };
+		D82F2E811DC4BFCB007A1459 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2E7F1DC4BFCB007A1459 /* MasterViewController.m */; };
+		D82F2E821DC4BFCB007A1459 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E801DC4BFCB007A1459 /* MasterViewController.xib */; };
+		D82F2E8B1DC4E449007A1459 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2E8A1DC4E449007A1459 /* ScaryBugData.m */; };
+		D82F2E8E1DC4E8C3007A1459 /* ScaryBugsDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = D82F2E8D1DC4E8C3007A1459 /* ScaryBugsDoc.m */; };
+		D82F2E981DC4F54B007A1459 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E901DC4F54B007A1459 /* centipede.jpg */; };
+		D82F2E991DC4F54B007A1459 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E911DC4F54B007A1459 /* centipedeThumb.jpg */; };
+		D82F2E9A1DC4F54B007A1459 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E921DC4F54B007A1459 /* ladybug.jpg */; };
+		D82F2E9B1DC4F54B007A1459 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E931DC4F54B007A1459 /* ladybugThumb.jpg */; };
+		D82F2E9C1DC4F54B007A1459 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E941DC4F54B007A1459 /* potatoBug.jpg */; };
+		D82F2E9D1DC4F54B007A1459 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E951DC4F54B007A1459 /* potatoBugThumb.jpg */; };
+		D82F2E9E1DC4F54B007A1459 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E961DC4F54B007A1459 /* wolfSpider.jpg */; };
+		D82F2E9F1DC4F54B007A1459 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D82F2E6A1DC4B255007A1459 /* ScrayBugsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrayBugsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82F2E6D1DC4B255007A1459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D82F2E6E1DC4B255007A1459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D82F2E711DC4B255007A1459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D82F2E731DC4B255007A1459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82F2E761DC4B255007A1459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D82F2E781DC4B255007A1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82F2E7E1DC4BFCB007A1459 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D82F2E7F1DC4BFCB007A1459 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D82F2E801DC4BFCB007A1459 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		D82F2E891DC4E449007A1459 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		D82F2E8A1DC4E449007A1459 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		D82F2E8C1DC4E8C3007A1459 /* ScaryBugsDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugsDoc.h; sourceTree = "<group>"; };
+		D82F2E8D1DC4E8C3007A1459 /* ScaryBugsDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsDoc.m; sourceTree = "<group>"; };
+		D82F2E901DC4F54B007A1459 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		D82F2E911DC4F54B007A1459 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		D82F2E921DC4F54B007A1459 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		D82F2E931DC4F54B007A1459 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		D82F2E941DC4F54B007A1459 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		D82F2E951DC4F54B007A1459 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		D82F2E961DC4F54B007A1459 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82F2E671DC4B255007A1459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82F2E611DC4B255007A1459 = {
+			isa = PBXGroup;
+			children = (
+				D82F2E6C1DC4B255007A1459 /* ScrayBugsMac */,
+				D82F2E6B1DC4B255007A1459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82F2E6B1DC4B255007A1459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E6A1DC4B255007A1459 /* ScrayBugsMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82F2E6C1DC4B255007A1459 /* ScrayBugsMac */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E851DC4E15E007A1459 /* Model */,
+				D82F2E831DC4DF1F007A1459 /* GUI */,
+				D82F2E731DC4B255007A1459 /* Assets.xcassets */,
+				D82F2E701DC4B255007A1459 /* Supporting Files */,
+			);
+			path = ScrayBugsMac;
+			sourceTree = "<group>";
+		};
+		D82F2E701DC4B255007A1459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E8F1DC4F54B007A1459 /* ScaryBugs */,
+				D82F2E781DC4B255007A1459 /* Info.plist */,
+				D82F2E711DC4B255007A1459 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82F2E831DC4DF1F007A1459 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E6D1DC4B255007A1459 /* AppDelegate.h */,
+				D82F2E6E1DC4B255007A1459 /* AppDelegate.m */,
+				D82F2E751DC4B255007A1459 /* MainMenu.xib */,
+				D82F2E7E1DC4BFCB007A1459 /* MasterViewController.h */,
+				D82F2E7F1DC4BFCB007A1459 /* MasterViewController.m */,
+				D82F2E801DC4BFCB007A1459 /* MasterViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		D82F2E851DC4E15E007A1459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E891DC4E449007A1459 /* ScaryBugData.h */,
+				D82F2E8A1DC4E449007A1459 /* ScaryBugData.m */,
+				D82F2E8C1DC4E8C3007A1459 /* ScaryBugsDoc.h */,
+				D82F2E8D1DC4E8C3007A1459 /* ScaryBugsDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D82F2E8F1DC4F54B007A1459 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				D82F2E901DC4F54B007A1459 /* centipede.jpg */,
+				D82F2E911DC4F54B007A1459 /* centipedeThumb.jpg */,
+				D82F2E921DC4F54B007A1459 /* ladybug.jpg */,
+				D82F2E931DC4F54B007A1459 /* ladybugThumb.jpg */,
+				D82F2E941DC4F54B007A1459 /* potatoBug.jpg */,
+				D82F2E951DC4F54B007A1459 /* potatoBugThumb.jpg */,
+				D82F2E961DC4F54B007A1459 /* wolfSpider.jpg */,
+				D82F2E971DC4F54B007A1459 /* wolfSpiderThumb.jpg */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82F2E691DC4B255007A1459 /* ScrayBugsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82F2E7B1DC4B255007A1459 /* Build configuration list for PBXNativeTarget "ScrayBugsMac" */;
+			buildPhases = (
+				D82F2E661DC4B255007A1459 /* Sources */,
+				D82F2E671DC4B255007A1459 /* Frameworks */,
+				D82F2E681DC4B255007A1459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrayBugsMac;
+			productName = ScrayBugsMac;
+			productReference = D82F2E6A1DC4B255007A1459 /* ScrayBugsMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82F2E621DC4B255007A1459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = codeMaster;
+				TargetAttributes = {
+					D82F2E691DC4B255007A1459 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D82F2E651DC4B255007A1459 /* Build configuration list for PBXProject "ScrayBugsMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82F2E611DC4B255007A1459;
+			productRefGroup = D82F2E6B1DC4B255007A1459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82F2E691DC4B255007A1459 /* ScrayBugsMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82F2E681DC4B255007A1459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82F2E741DC4B255007A1459 /* Assets.xcassets in Resources */,
+				D82F2E9C1DC4F54B007A1459 /* potatoBug.jpg in Resources */,
+				D82F2E9E1DC4F54B007A1459 /* wolfSpider.jpg in Resources */,
+				D82F2E9F1DC4F54B007A1459 /* wolfSpiderThumb.jpg in Resources */,
+				D82F2E9B1DC4F54B007A1459 /* ladybugThumb.jpg in Resources */,
+				D82F2E981DC4F54B007A1459 /* centipede.jpg in Resources */,
+				D82F2E991DC4F54B007A1459 /* centipedeThumb.jpg in Resources */,
+				D82F2E771DC4B255007A1459 /* MainMenu.xib in Resources */,
+				D82F2E9D1DC4F54B007A1459 /* potatoBugThumb.jpg in Resources */,
+				D82F2E9A1DC4F54B007A1459 /* ladybug.jpg in Resources */,
+				D82F2E821DC4BFCB007A1459 /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82F2E661DC4B255007A1459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82F2E721DC4B255007A1459 /* main.m in Sources */,
+				D82F2E8E1DC4E8C3007A1459 /* ScaryBugsDoc.m in Sources */,
+				D82F2E811DC4BFCB007A1459 /* MasterViewController.m in Sources */,
+				D82F2E6F1DC4B255007A1459 /* AppDelegate.m in Sources */,
+				D82F2E8B1DC4E449007A1459 /* ScaryBugData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D82F2E751DC4B255007A1459 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82F2E761DC4B255007A1459 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82F2E791DC4B255007A1459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D82F2E7A1DC4B255007A1459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D82F2E7C1DC4B255007A1459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScrayBugsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeMaster.www.ScrayBugsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D82F2E7D1DC4B255007A1459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScrayBugsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeMaster.www.ScrayBugsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82F2E651DC4B255007A1459 /* Build configuration list for PBXProject "ScrayBugsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82F2E791DC4B255007A1459 /* Debug */,
+				D82F2E7A1DC4B255007A1459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82F2E7B1DC4B255007A1459 /* Build configuration list for PBXNativeTarget "ScrayBugsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82F2E7C1DC4B255007A1459 /* Debug */,
+				D82F2E7D1DC4B255007A1459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82F2E621DC4B255007A1459 /* Project object */;
+}
