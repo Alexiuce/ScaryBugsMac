@@ -19,6 +19,8 @@
 @property (weak) IBOutlet NSTextField *bugTitleView;
 @property (weak) IBOutlet NSImageView *bugImageView;
 @property (weak) IBOutlet EDStarRating *bugRating;
+@property (weak) IBOutlet NSButton *deleteButton;
+@property (weak) IBOutlet NSButton *changePictureButton;
 
 @end
 
@@ -32,10 +34,11 @@
     self.bugRating.starImage = [NSImage imageNamed:@"shockedface2_empty.png"];
     self.bugRating.maxRating = 5.0;
     self.bugRating.delegate = (id<EDStarRatingProtocol>) self;
-    self.bugRating.horizontalMargin = 12;
+    self.bugRating.horizontalMargin = 2;
     self.bugRating.editable=YES;
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating= 0.0;
+    self.bugRating.editable = NO;
 }
 // 获取选中的数据模型
 - (ScaryBugsDoc *)selectedBugDoc{
@@ -66,6 +69,12 @@
     ScaryBugsDoc *selectedDoc = [self selectedBugDoc];
     // 根据数据，设置详情视图内容
     [self setDetailInfo:selectedDoc];
+    // Enable/Disable buttons based on selection
+    BOOL buttonsEnabled = (selectedDoc!=nil);
+    [self.deleteButton setEnabled:buttonsEnabled];
+    [self.changePictureButton setEnabled:buttonsEnabled];
+    [self.bugRating setEditable:buttonsEnabled];
+    [self.bugTitleView setEnabled:buttonsEnabled];
 }
 // 这个方法返回列表的行数 : 类似于iOS中的numberOfRowsInSection:
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView{
